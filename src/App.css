@@ -1,0 +1,102 @@
+ body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1f2937;
+  border-bottom: 1px solid #374151;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  color: #9ca3af;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 15px;
+}
+
+.card {
+  background: #111827;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.counter-value {
+  font-size: 40px;
+  margin: 10px 0 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn.danger {
+  background: #dc2626;
+  color: white;
+}
+
+.btn.success {
+  background: #16a34a;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.quote {
+  margin-top: 15px;
+  font-style: italic;
+  color: #facc15;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #020617;
+  border-top: 1px solid #111827;
+  font-size: 14px;
+  color: #9ca3af;
+}
