@@ -10,7 +10,7 @@ function App() {
   const [quote, setQuote] = useState("");
 
   const quotes = [
-    "Believe in yourself!",
+    "Welcome to Sihan's WebApp!",
     "Keep pushing forward!",
     "You are doing great!",
     "Success is coming soon!",
